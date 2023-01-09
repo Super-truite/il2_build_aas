@@ -1,0 +1,79 @@
+map	c47a	a20b	hurricanemkii	i16t24	lagg3s29	la5s8	la5fns2	mig3s24	p40e1	p39l1	spitfiremkvb	pe2s87	pe2s35	u2vs	yak9ts1	yak1s127	yak9s1	yak7bs36	yak1s69	il2m43	il2m42	il2m41	mosquitofbmkvis2	p38j25	p47d28	p47d22	p51d15	p51b5	typhoonmkib	tempestmkvs2	spitfiremkxiv	spitfiremkixe	bf109e7	bf109g2	bf109g4	bf109g6	bf109g6late	bf109k4	bf109f2	bf109f4	bf109g14	mc202s8	bf110e2	bf110g2	fw190a3	fw190a5	fw190a6	fw190a8	fw190d9	he111h6	he111h16	hs129b2	ju523mg4e	ju87d3	ju88a4	ju88c6	me410a1	me262a	ar234b2
+Moscow	10	0	5	8	9	0	0	8	5	0	0	0	15	6	0	0	0	0	0	0	0	50	0	0	0	0	0	0	0	0	0	0	15	10	0	0	0	0	15	10	0	0	20	0	0	0	0	0	0	15	0	0	10	0	15	0	0	0	0
+Stalingrad	10	4	3	2	6	6	0	3	3	0	0	7	4	6	0	3	3	0	6	0	30	20	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	3	7	0	4	15	0	7	4	0	0	0	10	0	15	10	20	5	0	0	0	0
+Kuban	10	8	2	1	2	2	4	1	1	5	4	4	3	6	2	2	2	5	2	30	15	5	0	0	0	0	0	0	0	0	0	0	1	5	9	3	0	0	2	2	0	0	10	15	5	8	0	0	0	4	7	15	10	10	4	0	0	0	0
+Normandy	10	15	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	8	8	0	10	18	0	4	5	0	10	10	6	4	0	0	0	0	0	0	0	0	0	3	2	0	0	0	0	10	0	0	15	25	0	25
+Bodenplatte	10	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	25	5	3	6	4	4	5	4	4	0	0	0	0	2	8	0	0	8	0	0	0	0	0	2	3	8	0	0	0	10	0	8	25	25	4	7
+Prokhorovka	10	8	2	1	2	2	4	1	1	5	4	4	3	6	2	2	2	5	2	30	15	5	0	0	0	0	0	0	0	0	0	0	1	5	9	3	0	0	2	2	0	0	10	15	5	8	0	0	0	4	7	15	10	10	4	0	0	0	0
+																																																											
+																																																											
+map	t_allies_group1_2_1	t_allies_group1_2_2	t_allies_group1_3_1	t_allies_group1_3_2	t_allies_group1_1_1	t_allies_group1_1_2	t_allies_group2_3_1	t_allies_group2_3_2	t_allies_group2_2_1	t_allies_group2_2_2	t_allies_group2_1_1	t_allies_group2_1_2	t_allies_group3_3_1	t_allies_group3_3_2	t_allies_group3_2_1	t_allies_group3_2_2	t_allies_group3_1_1	t_allies_group3_1_2																																									
+Moscow	_t34-76stz	_t34-76stz	kv1-41	kv1-41	_m4a2	_m4a2	bt7m	bt7m	ba64	ba64	_gaz-mm\_gaz-mm-72k	_gaz-mm\_gaz-mm-72k_	gaz\gaz-aa-m4-aa	gaz\gaz-aa-m4-aa	_t34-76stz	_t34-76stz	kv1-41	kv1-41																																									
+Stalingrad	_t34-76stz	_t34-76stz	_churchill-iv	_churchill-iv	_m4a2	_m4a2	_t34-76stz	_t34-76stz	ba64	ba64	_gaz-mm\_gaz-mm-72k	_gaz-mm\_gaz-mm-72k_	gaz\gaz-aa-m4-aa	gaz\gaz-aa-m4-aa	_t34-76stz	_t34-76stz	_su122	_su122																																									
+Kuban	_su152	_su152	_churchill-iv	_churchill-iv	_m4a2	_m4a2	_t34-76uvz-43	_t34-76uvz-43	ba64	ba64	_gaz-mm\_gaz-mm-72k	_gaz-mm\_gaz-mm-72k_	gaz\gaz-aa-m4-aa	gaz\gaz-aa-m4-aa	_t34-76uvz-43	_t34-76uvz-43	_su122	_su122																																									
+Normandy	m4a3	m4a3	_churchill-iv	_churchill-iv	_m4a2	_m4a2	_m4a2	_m4a2	m8greyhound	m8greyhound	morrisc9b	morrisc9b	humbermkiv	humbermkiv	m4a3	m4a3	m16	m16																																									
+Bodenplatte	m4a3	m4a3	_churchill-iv	_churchill-iv	_m4a2	_m4a2	_m4a2	_m4a2	m8greyhound	m8greyhound	morrisc9b	morrisc9b	humbermkiv	humbermkiv	m4a3	m4a3	m16	m16																																									
+Prokhorovka	_su152	_su152	_churchill-iv	_churchill-iv	_m4a2	_m4a2	_t34-76uvz-43	_t34-76uvz-43	ba64	ba64	_gaz-mm\_gaz-mm-72k	_gaz-mm\_gaz-mm-72k_	gaz\gaz-aa-m4-aa	gaz\gaz-aa-m4-aa	_t34-76uvz-43	_t34-76uvz-43	_su122	_su122																																									
+																																																											
+																																																											
+map	t_axis_group1_1_1	t_axis_group1_1_2	t_axis_group1_3_1	t_axis_group1_3_2	t_axis_group1_2_1	t_axis_group1_2_2	t_axis_group2_1_1	t_axis_group2_1_2	t_axis_group2_2_1	t_axis_group2_2_2	t_axis_group2_3_1	t_axis_group2_3_2	t_axis_group3_1_1	t_axis_group3_1_2	t_axis_group3_2_1	t_axis_group3_2_2	t_axis_group3_3_1	t_axis_group3_3_2																																									
+Moscow	pz38t	pz38t	_pziii-m	_pziii-m	_pziii-m	_pziii-m	pz38t\marderiii-h	pz38t\marderiii-h	pziv-f1	pziv-f1	stug37l24	stug37l24	sdkfz251\sdkfz251-1c	sdkfz251\sdkfz251-1c	_pziii-m	_pziii-m	pz38t	pz38t																																									
+Stalingrad	_pziv-g	_pziv-g	_pziii-m	_pziii-m	_pziv-g	_pziv-g	pz38t\marderiii-h	pz38t\marderiii-h	pziv-f1	pziv-f1	sdkfz251\sdkfz251-1c	sdkfz251\sdkfz251-1c	pz38t\marderiii-h	pz38t\marderiii-h	_pziii-m	_pziii-m	_pziv-g	_pziv-g																																									
+Kuban	_pziv-g	_pziv-g	_pziii-m	_pziii-m	_pziv-g	_pziv-g	pz38t\marderiii-h	pz38t\marderiii-h	sdkfz222	sdkfz222	_sdkfz10\_sdkfz10-5	_sdkfz10\_sdkfz10-5	_pziv-g	_pziv-g	_pziii-m	_pziii-m	_pziv-g	_pziv-g																																									
+Normandy	pzv-g	pziv-h	pziv-h	pziv-h	pziv-h	pziv-h	pz38t\marderiii-h	pz38t\marderiii-h	sdkfz234-2	sdkfz234-2	_sdkfz10\_sdkfz10-5	_sdkfz10\_sdkfz10-5	pziv-mobelwagen	pziv-mobelwagen	pzv-g	pziv-h	pziv-h	pziv-h																																									
+Bodenplatte	_sdkfz184	_pziii-m	_pziii-m	_pziii-m	_pziv-g	_pziv-g	pz38t\marderiii-h	pz38t\marderiii-h	sdkfz222	sdkfz222	_sdkfz10\_sdkfz10-5	_sdkfz10\_sdkfz10-5	sdkfz251\sdkfz251-1c	sdkfz251\sdkfz251-1c	_pzv-d	_pziii-m	_pziv-g	_pziv-g																																									
+Prokhorovka	_sdkfz184	_pziii-m	_pziii-m	_pziii-m	_pziv-g	_pziv-g	pz38t\marderiii-h	pz38t\marderiii-h	sdkfz222	sdkfz222	_sdkfz10\_sdkfz10-5	_sdkfz10\_sdkfz10-5	sdkfz251\sdkfz251-1c	sdkfz251\sdkfz251-1c	_pzv-d	_pziii-m	_pziv-g	_pziv-g																																									
+																																																											
+																																																											
+map	AA_Allies_heavy	AA_Allies_medium	AA_Allies_light																																																								
+Moscow	52k	61k	72k																																																								
+Stalingrad	52k	61k	72k																																																								
+Kuban	52k	61k	72k																																																								
+Normandy	qf37in	m1a1gun-aa	boforsl60																																																								
+Bodenplatte	qf37in	m1a1gun-aa	boforsl60																																																								
+Prokhorovka	52k	61k	72k																																																								
+																																																											
+																																																											
+map	AA_Axis_heavy	AA_Axis_medium	AA_Axis_light																																																								
+Moscow	flak38-39	flak36	flak38																																																								
+Stalingrad	flak38-39	flak36	flak38																																																								
+Kuban	flak38-39	flak36	flak43																																																								
+Normandy	flak38-39	flak36	flakvierling38																																																								
+Bodenplatte	flak38-39	flak36	flakvierling38																																																								
+Prokhorovka	flak38-39	flak36	flakvierling38																																																								
+																																																											
+																																																											
+map	Bomber_allies	Bomber_axis	Allies_Plane_fighter_1	Allies_Plane_bomber_1	Axis_Plane_fighter_1	Axis_Plane_bomber_1																																																					
+Moscow	pe2s35	he111h6	lagg3s29	il2m41	bf109f4	bf110e2																																																					
+Stalingrad	a20b	ju88a4	yak1s69	il2m42	bf109g2	ju87d3																																																					
+Kuban	a20b	he111h16	yak7bs36	il2m43	fw190a5	bf110g2																																																					
+Normandy	b25draf	ju88c6	p51b5	mosquitofbmkvis2	bf109g6late	me410a1																																																					
+Bodenplatte	b25draf	ju88c6	p51d15	p38j25	bf109k4	me410a1																																																					
+Prokhorovka	a20b	he111h16	p39l1	il2m42	bf109g4	bf110g2																																																					
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+_churchill-iv	_churchill-iv	_pziii-l																																																									
+_su152	_m4a2																																																										
+_su122	universalcarrier	_pziv-g																																																									
+_t34-76stz	humbermkiv	_sdkfz10\_sdkfz10-5																																																									
+_t34-76uvz-43	m8greyhound	_stugiii-g																																																									
+_m4a2	\m16	_pzv-d																																																									
+_kv1s	m3a1	_pzvi-h1																																																									
+_gaz-mm\_gaz-mm-72k	m3a2	_sdkfz184																																																									
+	m3a3	jagdpz4l70																																																									
+kv1-41	morrisc9b	pz38t\marderiii-h																																																									
+kv1-42		pz38t																																																									
+kv1s		pziii-h																																																									
+t70		pziii-l																																																									
+zis\zis5-72k		pziv-f1																																																									
+gaz\gaz-aa-m4-aa		pziv-mobelwagen																																																									
+bt7m\bt7m		sdkfz222																																																									
+ba64		sdkfz234-2																																																									
+ba10m\ba10m		sdkfz251\sdkfz251-1c																																																									
+		sdkfz7\sdkfz7-flakvierling38																																																									
+		stug37l24																																																									

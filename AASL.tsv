@@ -1,0 +1,41 @@
+name	eng	fra	ger	chs	pol	rus	spa
+_LOC_Name_	Advance And Secure Lite	Advance And Secure Lite  	Advance And Secure Lite	Advance And Secure Lite	Advance And Secure Lite	Advance And Secure Lite	Advance And Secure Lite
+_LOC_Description_	Description ENG	Description FRA	Description ENG	Description CHS	Description POL	Description RUS	Description SPA
+_LOC_Airfield_	Airfield	Aérodrome	Flugplatz	机场	Lotnisko	Аэродром	Aeródromo
+_LOC_TankfieldAxisHeavy_	Tanks 1	Tanks 1	Panzer 1	装甲车 1	Zbiornik 1	танк 1	Tanque 1
+_LOC_TankfieldAxisLight_	Tanks 2	Tanks 2	Panzer 2	装甲车 2	Zbiornik 2	танк 2	Tanque 2
+_LOC_TankfieldAlliesHeavy_	Tanks 1	Tanks 1	Panzer 1	装甲车 1	Zbiornik 1	танк 1	Tanque 1
+_LOC_TankfieldAlliesLight_	Tanks 2	Tanks 2	Panzer 2	装甲车 2	Zbiornik 2	танк 2	Tanque 2
+_LOC_ObjAirfield_	Airfield	Aérodrome	Flugplatz	机场	Lotnisko	Аэродром	Aeródromo
+_LOC_SubEnnemyAirfieldDestroyed_	Ennemy airfield destroyed	Aérodrome ennemi détruit	Feindlicher Flugplatz zerstört	敌方机场被摧毁	Zniszczone wrogie lotnisko	Аэродром противника уничтожен	Aeródromo enemigo destruido
+_LOC_SubOurAirfieldDestroyed_	Our airfield has been destroyed	Notre aérodrome a été détruit	Unser Flugplatz ist zerstört worden	我们的机场已被摧毁	Nasze lotnisko zostało zniszczone	Наш аэродром уничтожен	Nuestro aeródromo ha sido destruido
+_LOC_ObjFactory_	Factory	Usine	Fabrik	厂工	Fabryka	Завод	Fábrica
+_LOC_SubEnnemyFactoryDestroyed_	The enemy factory has been destroyed	Usine ennemie détruite	Die feindliche Fabrik wurde zerstört	敌方工厂已被摧毁	Fabryka wroga została zniszczona.	Вражеский завод был уничтожен	La fábrica enemiga ha sido destruida
+_LOC_SubOursFactoryDestroyed_	Our factory has been destroyed	Usine de l'Axe détruite	Unsere Fabrik wurde zerstört	我们的工厂已被摧毁	Nasza fabryka została zniszczona	Наша фабрика разрушена	Nuestra fábrica ha sido destruida
+_LOC_SubBomberAlert_	Enemy bomber formation detected	Formation de bombardiers ennemie détectée	Feindliche Bomberformation entdeckt	发现敌方轰炸机编队	Wykryto formację wrogich bombowców	Обнаружено формирование вражеских бомбардировщиков	Formación de bombarderos enemigos detectada
+_LOC_SubOursArtilleryDestroyed_	Our artillery has been destroyed	Notre artillerie a été détruite	Unsere Artillerie ist zerstört worden.	我们的大炮已被摧毁	Nasza artyleria została zniszczona	Наша артиллерия уничтожена	Nuestra artillería ha sido destruida
+_LOC_SubEnnemyArtilleryDestroyed_	The ennemy artillery has been destroyed	L'artillerie ennemie a été détruite	Die feindliche Artillerie wurde zerstört.	敌人的大炮已被摧毁	Wroga artyleria została zniszczona.	Вражеская артиллерия уничтожена	La artillería enemiga ha sido destruida
+_LOC_Artillery_	Artillery	Artillerie	Artillerie	炮兵部队	Artyleria	Артиллерия	Artillería
+_LOC_SubAllOursAssetsDestroyed_	Our logistic took a serious hit, <br> we will not be able to use heavy tanks anymore	Nos capacité logistiques ont été fortement réduites. <br> Nous ne pourrons plus utiliser de chars lourds	Unsere Logistik hat einen schweren Schlag erlitten, <br> wir werden nicht mehr in der Lage sein, schwere Panzer einzusetzen.	我们的后勤保障受到严重打击，<br>我们将无法再使用重型坦克 	Nasza logistyka poważnie ucierpiała,<br> nie będziemy mogli już używać ciężkich czołgów.	Наша логистика серьезно пострадала,<br> мы больше не сможем использовать тяжелые танки.	Nuestra logística ha sufrido un duro golpe, <br>ya no podremos usar tanques pesados.
+_LOC_SubAllEnemyAssetsDestroyed_	All targets destroyed, <br>the ennemy will not be able to use heavy tanks anymore	Les  capacités logistiques de l'ennemi ont été fortement réduites. <br> Ils  ne pourrons plus utiliser de chars lourds	Alle Ziele zerstört, <br>der Feind kann keine schweren Panzer mehr einsetzen	所有目标被摧毁，<br>敌方将无法再使用重型坦克	Wszystkie cele zniszczone, <br>wróg nie będzie mógł już używać ciężkich czołgów	Все цели уничтожены, <br>противник больше не сможет использовать тяжелые танки.	Todos los objetivos destruidos, <br>el enemigo ya no podrá usar tanques pesados.
+_LOC_ObjTrucks_	Supply Trucks	Camions de ravitaillement	Versorgung Lastwagen	供应卡车	Ciężarówki dostawcze	Грузовые автомобили снабжения	Camiones de suministro
+_LOC_SubEnnemyTrucksDestroyed_	Enemies supply trucks destroyed	Camions de ravitaillement ennemis détruits	Feindliche Versorgungslastwagen zerstört	敌人的补给车被摧毁	Wrogie ciężarówki z zaopatrzeniem zniszczone	Уничтожены грузовики снабжения противника	Camiones de suministros enemigos destruidos
+_LOC_SubOursTrucksDestroyed_	Our supply trucks were destroyed	Nos camions de ravitaillement ont été détruits	Unsere Versorgungsfahrzeuge wurden zerstört	我们的补给车被毁	Nasze ciężarówki z zaopatrzeniem zostały zniszczone	Наши грузовики со снабжением были уничтожены	Nuestros camiones de suministros fueron destruidos
+_LOC_SubEnemyShipsDestroyed_	Enemy ships destroyed	Barges de ravitaillement ennemies détruites	Feindliche Schiffe zerstört	被摧毁的敌舰	Wrogie statki zniszczone	Вражеские корабли уничтожены	Naves enemigas destruidas
+_LOC_SubOursShipsDestroyed_	Our ships have been destroyed 	Nos barges de ravitaillement ont été détruites	Unsere Schiffe sind zerstört worden 	我们的船只已经被摧毁 	Nasze statki zostały zniszczone 	Наши корабли были уничтожены 	Nuestras naves han sido destruidas
+_LOC_ObjShips_	ships	barges de ravitaillement 	Schiffe	船只	statki	корабли	корабли
+_LOC_SubEnemyTrainDestroyed_	Enemy train destroyed	train ennemies détruit	Feindlicher Zug zerstört	敌人的火车被摧毁	Wrogi pociąg zniszczony	Вражеский поезд уничтожен	Tren enemigo destruido
+_LOC_SubOursTrainDestroyed_	Our train have been destroyed 	Notre train a été détruit	Unser Zug ist zerstört worden 	我们的火车已被摧毁 	Nasz pociąg został zniszczony 	Наш поезд был уничтожен	Nuestro tren ha sido destruido 
+_LOC_ObjTrain_	Train	Train 	Zug	火车	Pociąg	Поезд	Tren
+_LOC_SubParatroopersDeployed_	Our paratroopers are progressing to the objective	Nos parachutistes progressent vers l'objectif	Unsere Fallschirmjäger nähern sich dem Ziel	我们的伞兵正在向目标前进	Nasi spadochroniarze zmierzają do celu.	Наши десантники продвигаются к цели.	Nuestros paracaidistas están avanzando hacia el objetivo
+_LOC_SubProtectBomber_	Our bombers will attack. Protect them	Protégez nos Bombardiers	Die Bomber werden angreifen. Schütze sie	轰炸机会攻击。保护他们	Bombowce będą atakować. Chroń je	Бомбардировщики будут атаковать. Защитите их	Los bombarderos atacarán. Protégelos
+_LOC_ObjBomber_	Bombers	Bombardiers	Bomber	炸弹人	Bombowce	Бомбардировщики	Bombarderos
+_LOC_Paradrop_	Paradrop zone	Zone Paras	Para-Abwurfzone  	伞降区	Strefa zrzutu Para	Пара-зона падения	Zona de descenso Para
+_LOC_Bridge	Bridge	Pont	Brücke	桥梁	Most	Мост	Puente
+_LOC_FlagCapturedByUs_	Our team captured the flag.<br>Victory!	Notre équipe a capturé le drapeau<br>Victoire!	Unser Team hat die Flagge erobert.<br>Sieg!	我们的团队夺得了国旗。<br>胜利！<br>我们的团队夺得了国旗。	Nasza drużyna zdobyła flagę.<br>Zwycięstwo!	Наша команда захватила флаг.<br> Победа!	Nuestro equipo capturó la bandera.<br>¡Victoria!
+_LOC_FlagCapturedByEnemy_	The enemy team captured the flag.<br>Defeat!	L'équipe ennemie a capturé le drapeau<br>Défaite!	Das gegnerische Team hat die Flagge erobert.<br>Niederlage!	敌队夺取了旗帜。<br>失败！	Drużyna przeciwnika zdobyła flagę.<br>Pokonanie!	Вражеская команда захватила флаг.<br> Поражение!	El equipo enemigo capturó la bandera.<br>¡Derrota!
+_LOC_FlagWeEntered_	Our team entered the flag area	Notre équipe est entrée dans la zone du drapeau	Unser Team betritt den Flaggenbereich	我们的团队进入旗区	Nasza ekipa weszła na teren chorągwi	Наша команда вошла в зону флага	Nuestro equipo entró en la zona de la bandera
+_LOC_FlagEnnemyEntered_	The enemy team entered the flag area	L'équipe ennemie est entrée dans la zone du drapeau	Das gegnerische Team ist in den Flaggenbereich eingedrungen	敌队进入旗区	Drużyna wroga weszła na teren flagi	Вражеская команда вошла в зону флага	El equipo enemigo entró en la zona de la bandera
+_LOC_FlagBlockedByUs_	We start capturing the flag	Nous commençons à capturer le drapeau	Wir beginnen mit der Eroberung der Flagge	我们开始夺取旗帜	Zaczynamy zdobywać flagę	Мы начинаем захват флага	Empezamos a capturar la bandera
+_LOC_FlagBlockedByEnemy_	The enemy starts capturing the flag	L'équipe ennemie commence à capturer le drapeau	Der Feind beginnt, die Flagge zu erobern	敌人开始夺取旗帜	Wróg zaczyna zdobywać flagę	Противник начинает захватывать флаг	El enemigo empieza a capturar la bandera
+_LOC_AAAA_	Flak	DCA	Flak	高射炮	Flak	Флак	antiaéreo
