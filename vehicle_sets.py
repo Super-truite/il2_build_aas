@@ -12,8 +12,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-
-
 config = configparser.ConfigParser()
 config.read('config.ini')
 mission_file = config['DEFAULT']['mission_file']

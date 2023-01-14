@@ -38,6 +38,8 @@ def add_localization():
     if list_file != list_final_file:
         shutil.copyfile(list_file, list_final_file)
 
+        
+
     with open(list_final_file, "r") as f:
         s = f.read()
         s = s.replace(mission_file.lower(), mission_file_output.lower())

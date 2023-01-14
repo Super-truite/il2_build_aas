@@ -1,4 +1,4 @@
-from localisation import add_localization
+from localisation_V2 import add_localization  
 from add_artillery_to_map import add_arty
 from vehicle_sets import replaceAll
 from add_surface_edit import add_surface_info

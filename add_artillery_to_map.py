@@ -18,8 +18,9 @@ mission_file_temp = config['DEFAULT']['mission_file_temp']
 mission_file_output = config['DEFAULT']['mission_file_output']
 input_path_mission = os.path.join(final_path_mission,mission_file_input+".Mission")
 temp_path_mission = os.path.join(final_path_mission,mission_file_temp+".Mission")
-final_path_mission = os.path.join(final_path_mission,mission_file_output+".Mission")
 path_pkl = os.path.join(final_path_mission,"Arty_"+mission_file_output+".pkl")
+final_path_mission = os.path.join(final_path_mission,mission_file_output+".Mission")
+
 def grid_to_pos(grid, key, subkey, subsubkey,  Xmax, Z0):
     ZPos = Z0 + (grid[1]-1) * GRIDSIZE + ((key-1) % 3) * (GRIDSIZE / 3) + ((subkey-1) % 3) * (GRIDSIZE / 9) + ((subsubkey-1) % 3) * (GRIDSIZE / 27) + (GRIDSIZE / 27) / 2
     XPos = Xmax - (grid[0]-1) * GRIDSIZE - (2-math.floor((key-1) / 3)) * (GRIDSIZE / 3) - (2-math.floor((subkey-1) / 3)) * (GRIDSIZE / 9) - (2-math.floor((subsubkey-1) / 3)) * (GRIDSIZE / 27) + (GRIDSIZE / 27) / 2 
@@ -243,4 +244,4 @@ def add_arty():
         f.write('# end of file')
 
 if __name__ == '__main__':
-    add_arty(final_path_mission)
+    add_arty()
