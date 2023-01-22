@@ -28,14 +28,14 @@ complete_final_path = os.path.join(path_mission,mission_file_temp +'.Mission')
 
 
 
-def vehicleToScriptModel(vehicle):
+def vehicleToScriptModel(vehicle, type="vehicles"):
     if "\\" in vehicle:
         vehicle1 = vehicle.split("\\")[0]
         vehicle2 = vehicle.split("\\")[1]
-        model = "graphics\\vehicles\{0}\{1}.mgm".format(vehicle1, vehicle2)
+        model = "graphics\\{2}\{0}\{1}.mgm".format(vehicle1, vehicle2, type)
         script = "LuaScripts\WorldObjects\\vehicles\{0}.txt".format(vehicle2)
     else:
-        model = "graphics\\vehicles\{0}\{0}.mgm".format(vehicle)
+        model = "graphics\\{1}\{0}\{0}.mgm".format(vehicle, type)
         script = "LuaScripts\WorldObjects\\vehicles\{0}.txt".format(vehicle)
     return model, script
 
@@ -85,10 +85,10 @@ def replaceAll():
         if dict_planes[plane] == 0:
             unwanted_planes.append(plane)
 
-    objList = findObject(newMission, Name="_LOC_Airfield_")
+    objList = findObject(newMission, Type="Airfield", Name="Airfield")
     for obj in objList :
         print('--------------')
-        allPlanesInAirfield = newMission.ObjList[obj].PropList['Planes']
+        allPlanesInAirfield = newMission.ObjList[obj].PropList['Planes']  
         newPlanes = []
         for planeProperty in allPlanesInAirfield:
             model = planeProperty.Value['Model'].split('\\')[-1].split('.')[0]
@@ -100,6 +100,15 @@ def replaceAll():
                 print(planeProperty)
                 newPlanes.append(planeProperty)
         newMission.ObjList[obj].PropList['Planes'] = newPlanes
+
+    # change spawn country
+    for NameAirfield in ["Airfield", 'Tanks 1', 'Tanks 2', 'Commander', 'AAA']:
+        objList = findObject(newMission, Type="Airfield", Name=NameAirfield)
+        for obj in objList:
+            country = newMission.ObjList[obj].PropList['Country']
+            if country in [101, 102, 103]:
+                newMission.ObjList[obj].PropList['Country'] = Country_ID_Allies
+
 
     # removing unwanted tanks
     # TODO
@@ -146,6 +155,39 @@ def replaceAll():
         model, script = vehicleToScriptModel(vehicle)
         print(model, script)
         modify_kv(newMission, [obj], Model=model, Script=script)
+
+    # Replacing AAA
+    names_aa_allies = ["AA_Allies_heavy", "AA_Allies_medium", "AA_Allies_light"]
+    for name_aa in names_aa_allies:
+        AAListAllies=findObject(newMission, Type="Vehicle", Name=name_aa)
+        for obj in AAListAllies:
+            name = str(newMission.ObjList[obj].PropList['Name']).replace('"','')
+            name = name[:-2]
+            vehicle = dict_aa_allies[name]
+            model, script = vehicleToScriptModel(vehicle, type="artillery")
+            modify_kv(newMission, [obj], Model=model, Script=script, Country=Country_ID_Allies)
+            
+    names_aa_axis = ["AA_Axis_heavy", "AA_Axis_medium", "AA_Axis_light"]
+    for name_aa in names_aa_axis:
+        AAListAxis=findObject(newMission, Name=name_aa)
+        for obj in AAListAxis:
+            name = str(newMission.ObjList[obj].PropList['Name']).replace('"','')
+            name = name[:-2]
+            vehicle = dict_aa_axis[name]
+            model, script = vehicleToScriptModel(vehicle, type="artillery")
+            modify_kv(newMission, [obj], Model=model, Script=script)
+
+    # replace victory music
+    if settings_allies_team != "USSR":
+        if settings_allies_team == "United States":
+            medias=findObject(newMission, Type="MCU_TR_Media")
+            for obj in medias:
+                music = str(newMission.ObjList[obj].PropList['Config'])
+                if "victory_ussr" in music:
+                    modify_kv(newMission, [obj], Config="multiplayer\dogfight\\victory_us.mp3")
+
+
+
 
     # Fixing altitude of smokes/effects
     try:
